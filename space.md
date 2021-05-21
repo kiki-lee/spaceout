@@ -6,8 +6,9 @@
 * backgroundurl: /static/skillmap/backgrounds/space-comp.png  
 * primarycolor: #2EA9B0
 * secondarycolor: #F392BD
-* tertiarycolor: #83C252
+* tertiarycolor: #5d416b
 * highlightcolor: #FAED28
+* completednodecolor: #504c52
 * alternatesources: github:https://github.com/microsoft/pxt-skillmap-sample/skillmap.md
 
 
