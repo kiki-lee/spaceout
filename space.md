@@ -9,22 +9,23 @@
 * tertiarycolor: #5d416b
 * highlightcolor: #FFFFFF
 * completednodecolor: #504c52
+* tags: intermediate, space, projectiles
 * alternatesources: github:https://github.com/microsoft/pxt-skillmap-sample/skillmap.md
 
 
 ## space
 * name: Design a Space Explorer
-* description: Let's explore the depths of space! We'll design a vessel for space travel, add some enemies, and populate the universe with planets.
+* description: Let's explore the depths of space! We'll add a vessel for space travel, create some enemies, and make sure we have plenty of fuel for the journey.
 * completionUrl: /static/skillmap/certificates/design-a-space-explorer.pdf
 
 ### space-activity1
 * allowcodecarryover: false
 
 
-* name: Ship Design
+* name: Prepare Your Ship
 * type: tutorial
-* description: Draw and code a spaceship!
-* tags: easy
+* description: Get your spaceship ready for an adventure!
+* tags: easy, sprites, scroller
 * next: space-activity2, pusher1
 
 * url: /skillmap/space/space1
@@ -32,9 +33,9 @@
 
 ### space-activity2
 
-* name: Projectiles
+* name: Ready, aim, fire!
 * type: tutorial
-* description: Customize your ship with projectiles and effects.
+* description: Equip your ship with projectiles and special effects.
 * tags: easy, projectiles, kinds
 * next: pusher2, space-activity3
 
@@ -43,10 +44,10 @@
 
 ### space-activity3
 
-* name: Enemies
-* description: Watch out for danger! Add enemies and lives to your game.
+* name: Here comes trouble!
+* description: Watch out for danger! Add enemies and countdown lives in your game.
 * type: tutorial
-* tags: easy, enemies, kinds
+* tags: intermediate, enemies, kinds
 * next: space-activity4
 
 * url: /skillmap/space/space3
@@ -54,7 +55,7 @@
 
 ### space-activity4
 
-* name: Fuel Up
+* name: Fuel Up!
 * type: tutorial
 * description: Use an extension to add a fuel gauge to your ship. Make sure to refuel often!
 * tags: intermediate, extensions
